@@ -1,0 +1,17 @@
+<div id="gallery-wrapper">
+	<h2 class="photo-gallery">Photo Gallery of Our Previous Work</h2>
+	<div class="button-group filters-button-group">
+	  <button class="button is-checked" data-filter="*">show all</button>
+	  <button class="button" data-filter=".overlay">Overlay</button>
+	  <button class="button" data-filter=".reflector">Reflector</button>
+	</div>
+	<div class="grid">
+		<div class="element-item {{x.floor}}" ng-repeat="x in galleryItem" >
+			<div data-category="{{x.floor}}">
+				<a href="{{x.image}}" data-lightbox={{x.imageNumber}} data-title="Look at our work!">
+					<img src={{x.image}}>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>

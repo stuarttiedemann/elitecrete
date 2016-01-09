@@ -1,0 +1,250 @@
+/* line 5, ../compass/sass/style.scss */
+#nav.affix {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* line 10, ../compass/sass/style.scss */
+h1, h2, h3, li, a, p {
+  font-family: 'Abel', sans-serif;
+}
+
+/* line 13, ../compass/sass/style.scss */
+a {
+  cursor: pointer;
+}
+
+/* line 16, ../compass/sass/style.scss */
+li {
+  font-size: 1.5em;
+  color: #666;
+}
+
+/* line 20, ../compass/sass/style.scss */
+h3 {
+  color: #666;
+}
+
+/* line 23, ../compass/sass/style.scss */
+.carousel-caption {
+  margin-bottom: 95px;
+  z-index: 0 !important;
+}
+/* line 25, ../compass/sass/style.scss */
+.carousel-caption h1 {
+  font-size: 4em;
+  text-shadow: 3px 3px 3px #393939;
+}
+/* line 30, ../compass/sass/style.scss */
+.carousel-caption a {
+  color: black;
+  text-shadow: 2px 2px 2px #393939;
+  margin-right: 20px;
+}
+/* line 39, ../compass/sass/style.scss */
+.carousel-caption h3:first-child {
+  animation-delay: 1s;
+}
+/* line 43, ../compass/sass/style.scss */
+.carousel-caption h3:nth-child(2) {
+  animation-delay: 2s;
+}
+
+/* line 49, ../compass/sass/style.scss */
+#nav > .navbar-inner {
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  z-index: 101;
+}
+
+/* line 58, ../compass/sass/style.scss */
+.navbar-inverse {
+  background: #36454B;
+  border: none;
+  z-index: 100;
+}
+
+/* line 63, ../compass/sass/style.scss */
+body {
+  height: 100vh;
+  font-family: 'Abel', sans-serif;
+}
+/* line 66, ../compass/sass/style.scss */
+body .navbar {
+  font-family: 'Abel', sans-serif;
+  width: 100%;
+  height: 70px;
+  border-radius: 0px;
+  margin: 0;
+  position: relative;
+  z-index: 1000 !important;
+}
+/* line 74, ../compass/sass/style.scss */
+body .navbar #home-link {
+  padding-top: 1%;
+}
+/* line 76, ../compass/sass/style.scss */
+body .navbar #home-link li a {
+  font-size: .8em;
+}
+/* line 82, ../compass/sass/style.scss */
+body header {
+  color: white;
+  height: 500px;
+  margin: 0;
+}
+/* line 88, ../compass/sass/style.scss */
+body header h1 {
+  font-family: 'Abel', sans-serif;
+  margin-top: 0;
+  padding-top: 8%;
+  padding-left: 5%;
+  font-size: 4em;
+  font-weight: bold;
+  text-shadow: 1px 1px #000;
+}
+/* line 98, ../compass/sass/style.scss */
+body header h3 {
+  font-family: 'Abel', sans-serif;
+  padding-left: 5%;
+  margin-bottom: 1%;
+  color: white;
+}
+/* line 103, ../compass/sass/style.scss */
+body header h3 a {
+  text-decoration: none;
+  color: white;
+}
+/* line 107, ../compass/sass/style.scss */
+body header h3 a:hover {
+  text-decoration: none;
+  color: white;
+}
+/* line 114, ../compass/sass/style.scss */
+body #main {
+  background: white;
+}
+/* line 116, ../compass/sass/style.scss */
+body #main .row {
+  padding: 0;
+  margin: 0;
+  background: white;
+}
+/* line 120, ../compass/sass/style.scss */
+body #main .row .col-xs-12.col-md-4 {
+  padding: 0;
+}
+/* line 122, ../compass/sass/style.scss */
+body #main .row .col-xs-12.col-md-4 .column {
+  width: 96%;
+  height: 300px;
+  margin: 2%;
+}
+/* line 126, ../compass/sass/style.scss */
+body #main .row .col-xs-12.col-md-4 .column .text-holder {
+  position: absolute;
+  top: -10%;
+  left: 28%;
+  width: 45%;
+  background: #222;
+  box-shadow: 5px 5px 5px #000;
+  color: white;
+  margin-top: 200px;
+  padding: .5%;
+}
+/* line 136, ../compass/sass/style.scss */
+body #main .row .col-xs-12.col-md-4 .column .text-holder a {
+  color: #aaa;
+  text-decoration: none;
+}
+/* line 140, ../compass/sass/style.scss */
+body #main .row .col-xs-12.col-md-4 .column .text-holder a:hover {
+  color: white;
+}
+/* line 145, ../compass/sass/style.scss */
+body #main .row .col-xs-12.col-md-4 .left {
+  background: url("../../img/reflector.jpg") no-repeat;
+  background-size: cover;
+}
+/* line 149, ../compass/sass/style.scss */
+body #main .row .col-xs-12.col-md-4 .center {
+  background: url("../../img/epoxy.jpg") no-repeat;
+  background-size: cover;
+}
+/* line 153, ../compass/sass/style.scss */
+body #main .row .col-xs-12.col-md-4 .right {
+  background: url("../../img/overlayporch.jpg") no-repeat;
+  background-size: cover;
+}
+/* line 160, ../compass/sass/style.scss */
+body #description {
+  background: white;
+  padding: 2%;
+}
+/* line 164, ../compass/sass/style.scss */
+body #description h3 span {
+  color: #0974dc;
+  font-weight: bold;
+}
+/* line 169, ../compass/sass/style.scss */
+body #description p {
+  padding-bottom: 2%;
+}
+/* line 173, ../compass/sass/style.scss */
+body footer {
+  height: 70px;
+  background: #222;
+  color: #666;
+}
+/* line 177, ../compass/sass/style.scss */
+body footer p {
+  padding-top: 2%;
+}
+/* line 181, ../compass/sass/style.scss */
+body .overlay {
+  padding: 2%;
+}
+/* line 183, ../compass/sass/style.scss */
+body .overlay h1 {
+  background: white;
+  margin: 0;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: #666;
+}
+/* line 190, ../compass/sass/style.scss */
+body .overlay .row {
+  border-top: 2px solid black;
+  padding-top: 3% !important;
+  padding-bottom: 3% !important;
+  padding-right: 1% !important;
+  padding-left: 1% !important;
+}
+/* line 196, ../compass/sass/style.scss */
+body .overlay .row p {
+  font-size: 1.5em;
+  color: #666;
+}
+/* line 200, ../compass/sass/style.scss */
+body .overlay .row img {
+  width: 100%;
+  padding: 2%;
+}
+
+@media screen and (max-width: 500px) {
+  /* line 211, ../compass/sass/style.scss */
+  header h1 {
+    font-size: 2em !important;
+    padding-right: 1%;
+    padding-left: 1%;
+  }
+  /* line 216, ../compass/sass/style.scss */
+  header h3 {
+    font-size: 1.2em;
+  }
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Concrete Overlays</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/full-slider.css">
+	<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="assets/css/lightbox.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/gallery.css">
+	
+</head>
+<body ng-controller="myController">
+	<div id="nav-wrapper">
+		<nav id="nav" class="navbar navbar-inverse">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse navbar-inverse" id="bs-example-navbar-collapse-1">
+		      <a class="navbar-brand" ng-click="home()">
+        		<img alt="Brand" src="...">
+      		  </a>
+		      <ul class="nav navbar-nav pull-right" id="home-link">
+		        <li ><a ng-click="home()"> FIND AN INSTALLER <span class="sr-only">(current)</span></a></li>
+		        <li class="dropdown">
+		          <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FLOORING TYPES <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li role="separator" class="divider"></li>
+		            <li><a ng-click="reflector()">REFLECTOR ENHANCER</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a ng-click="industrial()">INDUSTRIAL FLOOR SYSTEMS</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a ng-click="overlay()">CONCRETE OVERLAYS</a></li>
+		          </ul>
+		        </li>
+		         <li><a class="gallery" ng-click="gallery()">GALLERY</a></li>
+		          <li><a ng-click="contact()">CONTACT</a></li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+	</div>
+		<!-- Full Page Image Background Carousel Header -->
+	<header id="myCarousel" class="carousel slide">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+		<!-- Wrapper for Slides -->
+		<div class="carousel-inner">
+			<div id="first-div" class="item active">
+				<!-- Set the first background image using inline CSS below. -->
+				<div class="fill" style="background-image:url('img/reflectorcatalog1.png');"></div>
+				<div class="carousel-caption">
+					<h1 class="main-callout">DISCOVER THE BEAUTY OF CONCRETE FLOORING</h1>		
+				</div>
+			</div>
+			<div id="second-div" class="item">
+				<!-- Set the second background image using inline CSS below. -->
+				<div class="fill" style="background-image:url('img/epoxy.jpg');"></div>
+				<div class="carousel-caption">
+					<h1 class="main-callout2">OVERLAYS & SEAMLESS FLOORS BY ELITECRETE</h1>
+					
+				</div>
+			</div>
+			<div id="third-div" class="item">
+				<!-- Set the third background image using inline CSS below. -->
+				<div class="fill" style="background-image:url('img/overlay.jpg');"></div>
+				<div class="carousel-caption">
+					<h1 class="main-callout">LIKE WHAT YOU SEE?  CONTACT AN INSTALLER TODAY.</h1>
+				</div>
+			</div>
+		</div>
+		<!-- Controls -->
+		<!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			<span class="icon-prev"></span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" data-slide="next">
+			<span class="icon-next"></span>
+		</a> -->
+    		
+	</header>
+	
+	
+	<section id="main" ng-view>
+		
+
+	</section>
+	<section id="description" class="text-center">
+		<h3>Like what you see?</h3>
+		<h3>Let <span>Elite Crete of Georgia</span>, an Expert Distributor of Decorative & <br>Protective Concrete Coatings, connect you with a qualified Elite Crete trained installer.</h3>
+		<h3> For a quote or more information call: <a href="tel:19122726311">(912)272-6311</a></h3>
+	</section>
+	<footer class="text-center">
+		<p> &copy; 2015 Elite Crete
+	</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+<script src="js/angularRoutes.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="js/gallery.js"></script>
+<script src="js/controller.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
