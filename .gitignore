@@ -1,0 +1,8 @@
+
+*.scssc
+
+assets/compass/sass/gallery.scss
+
+assets/compass/sass/style.scss
+
+assets/compass/config.rb
