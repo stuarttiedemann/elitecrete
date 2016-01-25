@@ -28,7 +28,7 @@ h3 {
 
 /* line 23, ../compass/sass/style.scss */
 .carousel-caption {
-  margin-bottom: 95px;
+  margin-bottom: 25px;
   z-index: 0 !important;
 }
 /* line 25, ../compass/sass/style.scss */
@@ -96,9 +96,9 @@ body .navbar #home-link li a {
 body header {
   color: white;
   height: 500px;
-  margin: 0;
+  margin: 0px;
 }
-/* line 88, ../compass/sass/style.scss */
+/* line 90, ../compass/sass/style.scss */
 body header h1 {
   font-family: 'Abel', sans-serif;
   margin-top: 0;
@@ -108,44 +108,44 @@ body header h1 {
   font-weight: bold;
   text-shadow: 1px 1px #000;
 }
-/* line 98, ../compass/sass/style.scss */
+/* line 100, ../compass/sass/style.scss */
 body header h3 {
   font-family: 'Abel', sans-serif;
   padding-left: 5%;
   margin-bottom: 1%;
   color: white;
 }
-/* line 103, ../compass/sass/style.scss */
+/* line 105, ../compass/sass/style.scss */
 body header h3 a {
   text-decoration: none;
   color: white;
 }
-/* line 107, ../compass/sass/style.scss */
+/* line 109, ../compass/sass/style.scss */
 body header h3 a:hover {
   text-decoration: none;
   color: white;
 }
-/* line 114, ../compass/sass/style.scss */
+/* line 116, ../compass/sass/style.scss */
 body #main {
   background: white;
 }
-/* line 116, ../compass/sass/style.scss */
+/* line 118, ../compass/sass/style.scss */
 body #main .row {
   padding: 0;
   margin: 0;
   background: white;
 }
-/* line 120, ../compass/sass/style.scss */
+/* line 122, ../compass/sass/style.scss */
 body #main .row .col-xs-12.col-md-4 {
   padding: 0;
 }
-/* line 122, ../compass/sass/style.scss */
+/* line 124, ../compass/sass/style.scss */
 body #main .row .col-xs-12.col-md-4 .column {
   width: 96%;
   height: 300px;
   margin: 2%;
 }
-/* line 126, ../compass/sass/style.scss */
+/* line 128, ../compass/sass/style.scss */
 body #main .row .col-xs-12.col-md-4 .column .text-holder {
   position: absolute;
   top: -10%;
@@ -157,59 +157,59 @@ body #main .row .col-xs-12.col-md-4 .column .text-holder {
   margin-top: 200px;
   padding: .5%;
 }
-/* line 136, ../compass/sass/style.scss */
+/* line 138, ../compass/sass/style.scss */
 body #main .row .col-xs-12.col-md-4 .column .text-holder a {
   color: #aaa;
   text-decoration: none;
 }
-/* line 140, ../compass/sass/style.scss */
+/* line 142, ../compass/sass/style.scss */
 body #main .row .col-xs-12.col-md-4 .column .text-holder a:hover {
   color: white;
 }
-/* line 145, ../compass/sass/style.scss */
+/* line 147, ../compass/sass/style.scss */
 body #main .row .col-xs-12.col-md-4 .left {
   background: url("../../img/reflector.jpg") no-repeat;
   background-size: cover;
 }
-/* line 149, ../compass/sass/style.scss */
+/* line 151, ../compass/sass/style.scss */
 body #main .row .col-xs-12.col-md-4 .center {
   background: url("../../img/epoxy.jpg") no-repeat;
   background-size: cover;
 }
-/* line 153, ../compass/sass/style.scss */
+/* line 155, ../compass/sass/style.scss */
 body #main .row .col-xs-12.col-md-4 .right {
   background: url("../../img/overlayporch.jpg") no-repeat;
   background-size: cover;
 }
-/* line 160, ../compass/sass/style.scss */
+/* line 162, ../compass/sass/style.scss */
 body #description {
   background: white;
   padding: 2%;
 }
-/* line 164, ../compass/sass/style.scss */
+/* line 166, ../compass/sass/style.scss */
 body #description h3 span {
   color: #0974dc;
   font-weight: bold;
 }
-/* line 169, ../compass/sass/style.scss */
+/* line 171, ../compass/sass/style.scss */
 body #description p {
   padding-bottom: 2%;
 }
-/* line 173, ../compass/sass/style.scss */
+/* line 175, ../compass/sass/style.scss */
 body footer {
   height: 70px;
   background: #222;
   color: #666;
 }
-/* line 177, ../compass/sass/style.scss */
+/* line 179, ../compass/sass/style.scss */
 body footer p {
   padding-top: 2%;
 }
-/* line 181, ../compass/sass/style.scss */
+/* line 183, ../compass/sass/style.scss */
 body .overlay {
   padding: 2%;
 }
-/* line 183, ../compass/sass/style.scss */
+/* line 185, ../compass/sass/style.scss */
 body .overlay h1 {
   background: white;
   margin: 0;
@@ -217,7 +217,7 @@ body .overlay h1 {
   padding-bottom: 3%;
   color: #666;
 }
-/* line 190, ../compass/sass/style.scss */
+/* line 192, ../compass/sass/style.scss */
 body .overlay .row {
   border-top: 2px solid black;
   padding-top: 3% !important;
@@ -225,25 +225,25 @@ body .overlay .row {
   padding-right: 1% !important;
   padding-left: 1% !important;
 }
-/* line 196, ../compass/sass/style.scss */
+/* line 198, ../compass/sass/style.scss */
 body .overlay .row p {
   font-size: 1.5em;
   color: #666;
 }
-/* line 200, ../compass/sass/style.scss */
+/* line 202, ../compass/sass/style.scss */
 body .overlay .row img {
   width: 100%;
   padding: 2%;
 }
 
 @media screen and (max-width: 500px) {
-  /* line 211, ../compass/sass/style.scss */
+  /* line 213, ../compass/sass/style.scss */
   header h1 {
     font-size: 2em !important;
     padding-right: 1%;
     padding-left: 1%;
   }
-  /* line 216, ../compass/sass/style.scss */
+  /* line 218, ../compass/sass/style.scss */
   header h3 {
     font-size: 1.2em;
   }

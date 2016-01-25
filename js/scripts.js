@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(window).load(function(){
 		// make navbar sticky
 		$('#nav-wrapper').height($("#nav").height());
 
