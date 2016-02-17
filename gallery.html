@@ -4,11 +4,14 @@
 	  <button class="button is-checked" data-filter="*">show all</button>
 	  <button class="button" data-filter=".overlay">Overlay</button>
 	  <button class="button" data-filter=".reflector">Reflector</button>
+	  <button class="button" data-filter=".acidstain">Acid Stain</button>
+	  <button class="button" data-filter=".garage">Garage Floors</button>
+
 	</div>
 	<div class="grid">
 		<div class="element-item {{x.floor}}" ng-repeat="x in galleryItem" >
 			<div data-category="{{x.floor}}">
-				<a href="{{x.image}}" data-lightbox={{x.imageNumber}} data-title="Look at our work!">
+				<a href="{{x.image}}" data-lightbox={{x.imageNumber}} data-title={{x.title}}>
 					<img src={{x.image}}>
 				</a>
 			</div>

@@ -1,30 +1,53 @@
-function Gallery(floor,image){
+function Gallery(floor,image,imageNumber,title){
 	this.floor = floor;
-	this.image = image
+	this.image = image;
+	this.imageNumber = imageNumber;
+	this.title = title;
 }
 
 var galleryItem = [];
 
-galleryItem.push(new Gallery("overlay","img/overlay1.jpg","image-1"));
-galleryItem.push(new Gallery("overlay","img/overlay2.jpg","image-2"));
-galleryItem.push(new Gallery("overlay","img/overlay3.jpg","image-3"));
-galleryItem.push(new Gallery("overlay","img/overlay4.jpg","image-4"));
-galleryItem.push(new Gallery("overlay","img/overlay5.jpg","image-5"));
-galleryItem.push(new Gallery("reflector","img/reflector1.jpg","image-6"));
-galleryItem.push(new Gallery("reflector","img/reflector2.jpg","image-7"));
-galleryItem.push(new Gallery("reflector","img/reflector4.jpg","image-8"));
-galleryItem.push(new Gallery("reflector","img/reflector5.jpg","image-9"));
-galleryItem.push(new Gallery("reflector","img/reflector6.jpg","image-10"));
-galleryItem.push(new Gallery("reflector","img/reflector7.jpg","image-11"));
-galleryItem.push(new Gallery("reflector","img/reflector8.jpg","image-12"));
-galleryItem.push(new Gallery("reflector","img/reflector9.jpg","image-12"));
-galleryItem.push(new Gallery("reflector","img/reflector10.jpg","image-13"));
-galleryItem.push(new Gallery("reflector","img/reflector11.jpg","image-14"));
-galleryItem.push(new Gallery("reflector","img/reflector12.jpg","image-15"));
-galleryItem.push(new Gallery("reflector","img/reflector13.jpg","image-16"));
-galleryItem.push(new Gallery("reflector","img/reflector14.jpg","image-17"));
-galleryItem.push(new Gallery("reflector","img/reflector15.jpg","image-18"));
-galleryItem.push(new Gallery("reflector","img/reflector16.jpg","image-19"));
-galleryItem.push(new Gallery("reflector","img/reflector17.jpg","image-20"));
-galleryItem.push(new Gallery("reflector","img/reflector18.jpg","image-21"));
-galleryItem.push(new Gallery("reflector","img/reflector19.jpg","image-22"));
+galleryItem.push(new Gallery("overlay","img/gallery/overlay1.jpg","overlay","Concrete Overlay"));
+galleryItem.push(new Gallery("overlay","img/gallery/overlay2.jpg","overlay","Concrete Overlay"));
+galleryItem.push(new Gallery("overlay","img/gallery/overlay3.jpg","overlay","Concrete Overlay"));
+galleryItem.push(new Gallery("overlay","img/gallery/overlay4.jpg","overlay","Concrete Overlay"));
+galleryItem.push(new Gallery("overlay","img/gallery/overlay5.jpg","overlay","Concrete Overlay"));
+galleryItem.push(new Gallery("reflector","img/gallery/reflector1.jpg","reflector","Reflector Flooring"));
+galleryItem.push(new Gallery("reflector","img/gallery/reflector2.jpg","reflector","Reflector Flooring"));
+galleryItem.push(new Gallery("reflector","img/gallery/reflector4.jpg","reflector","Reflector Flooring"));
+galleryItem.push(new Gallery("reflector","img/gallery/reflector5.jpg","reflector","Reflector Flooring"));
+galleryItem.push(new Gallery("reflector","img/gallery/reflector6.jpg","reflector","Reflector Flooring"));
+galleryItem.push(new Gallery("reflector","img/gallery/reflector7.jpg","reflector","Reflector Flooring"));
+galleryItem.push(new Gallery("reflector","img/gallery/reflector8.jpg","reflector","Reflector Flooring"));
+galleryItem.push(new Gallery("reflector","img/gallery/reflector9.jpg","reflector","Reflector Flooring"));
+galleryItem.push(new Gallery("reflector","img/gallery/reflector10.jpg","reflector","Reflector Flooring"));
+galleryItem.push(new Gallery("reflector","img/gallery/reflector11.jpg","reflector","Reflector Flooring"));
+galleryItem.push(new Gallery("reflector","img/gallery/reflector12.jpg","reflector","Reflector Flooring"));
+galleryItem.push(new Gallery("reflector","img/gallery/reflector13.jpg","reflector","Reflector Flooring"));
+galleryItem.push(new Gallery("reflector","img/gallery/reflector14.jpg","reflector","Reflector Flooring"));
+galleryItem.push(new Gallery("reflector","img/gallery/reflector15.jpg","reflector","Reflector Flooring"));
+galleryItem.push(new Gallery("reflector","img/gallery/reflector16.jpg","reflector","Reflector Flooring"));
+galleryItem.push(new Gallery("reflector","img/gallery/reflector17.jpg","reflector","Reflector Flooring"));
+galleryItem.push(new Gallery("reflector","img/gallery/reflector18.jpg","reflector","Reflector Flooring"));
+galleryItem.push(new Gallery("reflector","img/gallery/reflector19.jpg","reflector","Reflector Flooring"));
+galleryItem.push(new Gallery("reflector","img/gallery/reflector20.jpg","reflector","Reflector Flooring"));
+galleryItem.push(new Gallery("reflector","img/gallery/reflector21.jpg","reflector","Reflector Flooring"));
+galleryItem.push(new Gallery("reflector","img/gallery/reflector22.jpg","reflector","Reflector Flooring"));
+galleryItem.push(new Gallery("reflector","img/gallery/reflector23.jpg","reflector","Reflector Flooring"));
+galleryItem.push(new Gallery("acidstain","img/gallery/acidstain1.jpg","acidstain","Acid Stained Flooring"));
+galleryItem.push(new Gallery("acidstain","img/gallery/acidstain2.jpg","acidstain","Acid Stained Flooring"));
+galleryItem.push(new Gallery("acidstain","img/gallery/acidstain3.jpg","acidstain","Acid Stained Flooring"));
+galleryItem.push(new Gallery("acidstain","img/gallery/acidstain4.jpg","acidstain","Acid Stained Flooring"));
+galleryItem.push(new Gallery("acidstain","img/gallery/acidstain5.jpg","acidstain","Acid Stained Flooring"));
+galleryItem.push(new Gallery("garage","img/gallery/garage1.jpg","garage","We Have Many Garage Flooring Options"));
+galleryItem.push(new Gallery("garage","img/gallery/garage2.jpg","garage","We Have Many Garage Flooring Options"));
+galleryItem.push(new Gallery("garage","img/gallery/garage3.jpg","garage","We Have Many Garage Flooring Options"));
+galleryItem.push(new Gallery("garage","img/gallery/garage4.jpg","garage","We Have Many Garage Flooring Options"));
+galleryItem.push(new Gallery("garage","img/gallery/garage5.jpg","garage","We Have Many Garage Flooring Options"));
+galleryItem.push(new Gallery("garage","img/gallery/garage6.jpg","garage","We Have Many Garage Flooring Options"));
+galleryItem.push(new Gallery("garage","img/gallery/garage7.jpg","garage","We Have Many Garage Flooring Options"));
+galleryItem.push(new Gallery("garage","img/gallery/garage8.jpg","garage","We Have Many Garage Flooring Options"));
+galleryItem.push(new Gallery("garage","img/gallery/garage9.jpg","garage","We Have Many Garage Flooring Options"));
+galleryItem.push(new Gallery("garage","img/gallery/garage10.jpg","garage","We Have Many Garage Flooring Options"));
+galleryItem.push(new Gallery("garage","img/gallery/garage11.jpg","garage","We Have Many Garage Flooring Options"));
+galleryItem.push(new Gallery("garage","img/gallery/garage12.jpg","garage","We Have Many Garage Flooring Options"));
